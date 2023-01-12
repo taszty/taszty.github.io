@@ -1,7 +1,43 @@
-body{
+body {
+    background: #535752;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-family: sans-serif;
+}
+
+.aboutMe1 {
+    color: rgba(217,177,92,255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
     
 }
-p .section {
-    background: rgb(231, 201, 129);
-    background-size: cover;
-}
+
+    .aboutMe1 .aboutMe2 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .aboutMe1 .aboutMe2 .topic1 {
+            text-align: center;
+            color: #cba85a;
+            font-size: 40px;
+            font-family: Akkurat-Mono;
+        }
+
+        .aboutMe1 .aboutMe2 .topic2 {
+            text-align: center;
+            color: #cba85a;
+            font-size: 40px;
+            font-family: Akkurat-Mono;
+        }
+
+        .aboutMe1 .aboutMe2 .topic3 {
+            text-align: center;
+            color: #cba85a;
+            font-size: 40px;
+            font-family: Akkurat-Mono;
+        }

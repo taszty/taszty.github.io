@@ -1,0 +1,19 @@
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../images/body.jpg) no-repeat top center;
+    background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+body {
+    background: rgb(0, 13, 26);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-family: sans-serif;
+}

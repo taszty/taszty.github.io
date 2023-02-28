@@ -1,9 +1,8 @@
 header {
     position: relative;
-    height: 800px;
-    min-height: 500px;
+    height: 1280px;
     width: 100%;
-    background: #161415 url(../images/gh-profilecover.jpg) no-repeat top center;
+    background: #161415 url(/images/testbg.png) no-repeat top center;
     background-size: cover !important;
     text-align: center;
     overflow: hidden;
@@ -16,4 +15,31 @@ body {
     justify-content: center;
     display: block;
     font-family: sans-serif;
+}
+
+.coverImgText {
+    align-items: center;
+    color: rgba(230, 230, 230, 255);
+    font-size: 40px;
+}
+
+.am {
+
+}
+
+.am .amTitle {
+
+}
+
+.am .amBody {
+
+}
+
+.am .amImgFrame {
+
+}
+
+.am .amImg {
+    width: 20%;
+    height: auto;
 }

@@ -1,7 +1,7 @@
 header {
     position: relative;
-    height: 1280px;
-    width: 100%;
+    height: 1920px;
+    width: auto;
     background: #161415 url(/images/testbg.png) no-repeat top center;
     background-size: cover !important;
     text-align: center;

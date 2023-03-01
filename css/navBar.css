@@ -1,20 +1,31 @@
+@font-face {
+    font-family: DIN;
+    src: url(/fonts/DIN.ttf);
+}
+
 .navbar {
     background-color: rgba(49,67,79,255);
     color: rgba(217,177,92,255);
-    display: flex;
+    display: inline-flex;
+    height: 75px;
+    width: 75%;
+    border-radius: 50px;
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    font-family: 'Courier New';
+    font-family: 'DIN';
 }
 
 .navlist {
     list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 75%;
 }
 
     .navlist .navlistItem {
-        display: inline-block;
-        padding: 50px 10px;
+        display: inline;
     }
 
 .navbar a {
@@ -25,5 +36,3 @@
     .navbar a:hover {
         color: rgba(154,211,249,255);
     }
-
-
